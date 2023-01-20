@@ -8,9 +8,9 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.3.1.Final/a5e2a807eee3372cbfba0685b70505d7c0b7ae9a/mapstruct-processor-1.3.1.Final.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.24/13a394eed5c4f9efb2a6d956e2086f1d81e857d9/lombok-1.18.24.jar" />
         </processorPath>
+        <module name="quantum.lims.quantumlims-be.api-module.main" />
         <module name="quantumlims-be.api-admin.main" />
-        <module name="quantumlims-be.api-module.main" />
-        <module name="quantumlims-be.core-lib.main" />
+        <module name="quantum.lims.quantumlims-be.core-lib.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />

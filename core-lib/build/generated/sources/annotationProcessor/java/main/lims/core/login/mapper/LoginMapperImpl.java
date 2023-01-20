@@ -6,8 +6,8 @@ import lims.core.account.entity.AccountEntity;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-01-19T18:23:09+0900",
-    comments = "version: 1.3.1.Final, compiler: javac, environment: Java 11 (Oracle Corporation)"
+    date = "2023-01-20T23:27:43+0900",
+    comments = "version: 1.3.1.Final, compiler: javac, environment: Java 11.0.12 (Microsoft)"
 )
 public class LoginMapperImpl implements LoginMapper {
 
