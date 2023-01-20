@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: local
+
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+    open-in-view: false
+
+  main:
+    allow-bean-definition-overriding: 'true'
+
+  devtools:
+    livereload:
+      enabled: 'true'
+
+  config:
+    import: application-jwt.yml
+companyCode: 1100

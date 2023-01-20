@@ -1,0 +1,24 @@
+plugins {
+    id 'org.springframework.boot' version '2.7.0'
+    id 'java'
+}
+
+group 'quantum.lims'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+bootJar {
+    enabled = false
+}
+
+jar {
+    enabled = true
+}
+
+dependencies {
+    compileOnly "org.springframework.boot:spring-boot-configuration-processor"
+
+}

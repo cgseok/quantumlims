@@ -1,0 +1,8 @@
+token:
+  refreshTime: '365'
+  expirationTime: '360'
+  header: X-Auth-Token
+  secret: '1234567890123456789012345678901234567890123456789'
+  join:
+    expirationTime: '3'
+  issuer: hhp
